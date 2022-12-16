@@ -9,18 +9,25 @@
 <body>
     <div class="container">
         <div class="parent">
-            <div class="flex-row menu">
-                <img class="thumbnail shadow" src="https://thispersondoesnotexist.com/image">
-                
+            <div class="flex-col">
+                <h1 style="justify-content: center;">Smash or Pass</h1>
+                <p>(But its AI Generated Faces)</p>
             </div>
+            <!-- <div class="flex-row menu">
+                <img class="thumbnail shadow" src="https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250">
+            </div> -->
             <div class="flex-row image-container" >
-                <img class="main-image shadow" src="https://thispersondoesnotexist.com/image">
+                <app-generated-image></app-generated-image>
             </div>
             <div class="flex-row action-buttons">
                 <button type="button" (click)="myFunc()" class="btn btn-danger btn-circle shadow"><i class="bi bi-x-lg"></i></button>
                 <button type="button" (click)="myFunc()" class="btn btn-primary btn-circle shadow"><i class="bi bi-heart-fill"></i></button>
             </div>
+            <div class="flex-row bottom">
+                <p>Made By <a href="https://www.instagram.com/sarvesh_is_wow/">Sarvesh Kedia</a></p>
+            </div>
         </div>
+
     </div>
 
 </body>

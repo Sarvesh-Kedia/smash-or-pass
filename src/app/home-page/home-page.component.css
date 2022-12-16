@@ -19,7 +19,7 @@
 
 .menu {
     align-items:flex-start;
-    padding-top: 10vh;
+    padding-top: 5vh;
 
 }
 
@@ -28,7 +28,6 @@
     width: 100%;
     border-radius: 60px;
     background-color: blueviolet;
-
 }
 
 .image-container {
@@ -36,14 +35,6 @@
     padding-top: 10vh;
     padding-bottom: 5vh;
     
-}
-
-
-.main-image {
-    max-width: 300px;
-    width: 100%;
-    border-radius: 10%;
-
 }
 
 .action-buttons {
@@ -61,3 +52,12 @@
     text-align: center;
 
 }
+
+.bottom {
+    width: 100vw;
+    position: absolute;
+    bottom: 0;
+    align-items: center;
+
+}
+
