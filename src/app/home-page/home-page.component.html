@@ -8,26 +8,33 @@
 </head>
 <body>
     <div class="container">
-        <div class="parent">
-            <div class="flex-col">
-                <h1 style="justify-content: center;">Smash or Pass</h1>
-                <p>(But its AI Generated Faces)</p>
-            </div>
-            <!-- <div class="flex-row menu">
-                <img class="thumbnail shadow" src="https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250">
-            </div> -->
-            <div class="flex-row image-container" >
-                <app-generated-image></app-generated-image>
-            </div>
-            <div class="flex-row action-buttons">
-                <button type="button" (click)="myFunc()" class="btn btn-danger btn-circle shadow"><i class="bi bi-x-lg"></i></button>
-                <button type="button" (click)="myFunc()" class="btn btn-primary btn-circle shadow"><i class="bi bi-heart-fill"></i></button>
-            </div>
-            <div class="flex-row bottom">
-                <p>Made By <a href="https://www.instagram.com/sarvesh_is_wow/">Sarvesh Kedia</a></p>
+        <div class="row justify-content-center">
+            <div class="col-10 col-md-8 col-lg-6">
+
+                <div class="nav">                
+                    <div class="fs-2 mb-3">
+                        <!-- <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16" style="margin-right: 10px;"><path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"></path></svg> -->
+                        <h4 class="d-inline-block"><b>Smash Or Pass AI</b></h4>
+                    </div>
+                    <img style="align-items: flex-end;" class="thumbnail shadow d-inline-block" src="https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250">
+                </div>
+
+                <div class="image-container" >
+                    <app-generated-image></app-generated-image>
+                </div>
+
+                <div class="action-buttons">
+                    <button type="button" (click)="myFunc()" class="btn btn-danger btn-circle shadow"><i class="bi bi-x-lg" style="font-size: 36px"></i></button>
+                    <button type="button" (click)="myFunc()" class="btn btn-primary btn-circle shadow"><i class="bi bi-heart-fill" style="font-size: 36px"></i></button>
+                </div>
+
+                <!-- <div class="footer">
+                    <p>Made By <a href="https://github.com/Sarvesh-Kedia/smash-or-pass">Sarvesh Kedia</a></p>
+                </div> -->
+
             </div>
         </div>
-
+        
     </div>
 
 </body>

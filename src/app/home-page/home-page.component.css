@@ -2,25 +2,11 @@
     box-shadow: 10px 10px 48px 12px rgba(0,0,0,0.2);
 }
 
-.parent {
+
+.nav {
     display: flex;
-    height: 100vh;
-    flex-direction: column;
-    align-items: center;
-
-}
-
-.flex-row {
-    max-width: 300px;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-}
-
-.menu {
-    align-items:flex-start;
-    padding-top: 5vh;
-
+    justify-content: space-between;
+    margin-top: 10vh;
 }
 
 .thumbnail {
@@ -30,16 +16,21 @@
     background-color: blueviolet;
 }
 
+
 .image-container {
-    align-items: center;
-    padding-top: 10vh;
-    padding-bottom: 5vh;
-    
+    width: 100%;
+    margin-top: 10vh;
 }
 
+
+
+
+
 .action-buttons {
+    display: flex;
     align-items: center;
     justify-content: space-around;
+    margin-top: 5vh;
 
 }
 
@@ -50,14 +41,15 @@
     border-radius: 50px;
     font-size: 15px;
     text-align: center;
-
 }
 
-.bottom {
-    width: 100vw;
-    position: absolute;
-    bottom: 0;
-    align-items: center;
-
+.footer {
+    position:absolute;
+    bottom:0;
+    text-align: center;
 }
 
+.fit-content {
+    width: fit-content;
+    margin:auto;
+}
